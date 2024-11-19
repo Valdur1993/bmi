@@ -4,6 +4,6 @@ public class Main {
         double weight = 98; //кг
         double height = 1.87; //м
         double BodyMassIndex = (int) service.calculate(weight, height);
-        System.out.println ("Индекс массы тела : " + (int)BodyMassIndex + "кг/㎡");
+        System.out.println("Индекс массы тела : " + (int) BodyMassIndex + "кг/㎡");
     }
 }
